@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Template is working...</title>
+</head>
+
+<body>
+    <h1>
+        <center>Welcome to text analyzer</center>
+    </h1>
+    <form action="/analyze" method="GET">
+        <h3>Enter Your Text:</h3>
+        <textarea name="area" style="margin: 0px; height: 103px; width: 363px;"></textarea><br/><br/>
+        <input type="checkbox" name="removepunc">Remove Punchuation<br/>
+        <input type="checkbox" name="fullcaps">Convert UpperCase<br/>
+        <input type="checkbox" name="newlineremover">New Line Remover<br/>
+        <input type="checkbox" name="extraspaceremover">Extra Space Remover<br/>
+        <input type="checkbox" name="charcounter">Char Counter<br/>
+        <button type='submit'>Analyze Text</button>
+    </form>
+</body>
+
+</html>
